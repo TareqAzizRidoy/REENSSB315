@@ -1,0 +1,566 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+/****************************
+*** global title start ******
+****************************/
+
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #506a85;
+    margin-bottom: 10px;
+}
+
+.title p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #73879c;
+    margin-bottom: 60px;
+}
+
+/****************************
+*** global title end*********
+****************************/
+
+/* header section start */
+
+/* top header part start */
+
+.header{
+    width: 100%;
+}
+
+.top-header{
+    width: 100%;
+    background: #f5f7fa;
+    padding: 5px 0px;
+}
+
+.top-header .contact-info{
+    width: 100%;
+}
+
+.top-header .contact-info ul{
+    width: 100%;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-header .contact-info ul li{
+    list-style: none;
+    display: inline-block; 
+}
+
+.top-header .contact-info ul li a{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #506a85;
+    margin-right: 20px;
+    transition: 1s;
+}
+
+.top-header .contact-info ul li a:hover{
+    font-size: 12px;
+    color: #00bc9c;
+}
+
+.top-header .contact-info ul a .fa{
+    margin-right: 5px;
+}
+
+.top-header .social-icons{
+    width: 100%;
+}
+
+.top-header .social-icons ul{
+    width: 100%;
+    display: block;
+    text-align: right;
+    margin: 0px;
+}
+
+.top-header .social-icons ul li{
+    list-style: none;
+    display: inline-block; 
+}
+
+.top-header .social-icons ul li a{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #506a85;
+    margin-left: 15px;
+    transition: 1s;
+}
+
+.top-header .social-icons ul a .fa{
+    margin-right: 8px;
+}
+
+.top-header .social-icons li a:hover{
+    font-size: 12px;
+    color: #00bc9c;
+}
+
+/* top header part end */
+
+/* main menu part start */
+
+.main-menu{
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.main-menu .bg-light{
+    background-color: transparent!important;
+}
+
+.main-menu .navbar-light .navbar-nav .nav-link.active{
+    color: #00bc9c;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #506a85;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin-left: 25px;
+    transition: 1s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+    color: #00bc9c;
+}
+
+.main-menu .navbar-brand img, svg{
+    margin-right: 20px;
+}
+
+.main-menu .fa-search{
+    color: #506a85;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+/* main menu part end */
+
+/* header section end */
+
+/* slider section start */
+
+.slider{
+    width: 100%;
+}
+
+.slider .carousel-caption{
+    bottom: 30%;
+}
+
+.slider .carousel-caption h1{
+    font-size: 48px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 58px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.slider .carousel-caption p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #a3b1bf;
+}
+
+.slider .carousel-caption .btn-info{
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 45px;
+    background-color: #00bc9c;
+    border-color: #00bc9c;
+    border-radius: 2px;
+    margin-top: 35px;
+    transition: 1s;
+}
+
+.slider .carousel-caption .btn-info:hover, .slider .carousel-caption .btn-info:focus{
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #00bc9c;
+    border-color: #00bc9c;
+    background: transparent;
+}
+
+/* slider section end */
+
+/* introduction section start */
+
+.introduction {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+/* card part start */
+
+.introduction .card{
+    border: 0px ;
+    border-radius: none;
+}
+
+.introduction .card img{
+    vertical-align: middle;
+    margin: 22px 0px 0px 40px;
+    width: 40px;
+}
+
+.introduction .card .card-body{
+    width: 100%;
+}
+
+.introduction .card .card-body .card-title{
+    margin-bottom: 0px;
+}
+
+.introduction .card .card-body h5{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #506a85;
+}
+
+.introduction .card .card-body p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #73879c;
+    margin-top: 20px;
+}
+
+/* card part end */
+
+/* introduction section end */
+
+/* last work section start */
+
+/* last work card start */
+
+.last-work{
+    width: 100%;
+    padding: 80px 0px;
+    background: #f2f5f7;
+}
+
+.last-work .new-card{
+    border: 0px;
+    border-radius: none;
+}
+
+.last-work .card-img-top{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.last-work .new-card-body{
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    padding: 20px 0px;
+}
+
+.last-work .new-card-body h5{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 0px;
+    color: #506a85;
+}
+
+.last-work .new-card .new-card-body p{
+    font-size: 12px;
+    color: #73879c;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 5px 0px 0px;
+
+}
+
+/* last work card end */
+
+/* last work owl carousel start */
+
+.last-work .owl-carousel{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.last-work .owl-theme .owl-dots .owl-dot{
+    margin-top: 15px;
+}
+
+.last-work .owl-theme .owl-dots .owl-dot.active span{
+    background: #00bc9c;
+}
+
+/* last work owl carousel end */
+
+/* last work section end */
+
+/* work with us section start */
+
+.work{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.work .title p{
+    margin-bottom: 30px;
+}
+
+.work .btn-info{
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 6px 20px;
+    background-color: #00bc9c;
+    border-color: #00bc9c;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+.work .btn-info:hover, .work .btn-info:focus{
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #00bc9c;
+    border-color: #00bc9c;
+    background: transparent;
+
+}
+
+/* work with us section end */
+
+/* footer section start */
+
+/* top footer part start */
+
+.footer{
+    width: 100%;
+}
+
+.top-footer{
+    width: 100%;
+    padding: 30px 0px 40px;
+    background: #2f4052;
+}
+
+.top-footer .widget{
+    width: 100%;
+    padding: 10px;
+}
+
+.top-footer .widget h4{
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.top-footer .widget .card{
+    border: 0px ;
+    border-radius: none;
+}
+
+.top-footer .widget .card-img-top{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.top-footer .widget .footer-card img{
+    margin: 0px;
+}
+
+.top-footer .widget .card-image{
+    width: 100%;
+    margin: 0px;
+}
+
+.top-footer .widget p{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #697989;
+    margin-top: 15px;
+}
+
+.top-footer .widget p a{
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 700;
+    color: #697989;
+    margin-right: 8px;
+}
+
+.widget .main-form{
+    position: relative;
+    width: 100%;
+}
+
+.widget .main-form .btn-primary{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 3px 5px;
+    background-color: #00bc9c;
+    border-color: #00bc9c;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.widget .main-form .btn-primary:hover{
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #00bc9c;
+    border-color: #00bc9c;
+    background: transparent;
+
+}
+
+.widget .main-form .form-control:focus{
+    box-shadow: none;
+}
+
+.widget .social p{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #697989;
+    margin: 0px;
+}
+
+.top-footer .widget .social .fa{
+    font-size: 12px;
+    height: 12px;
+    margin-right: 8px;
+}
+
+.widget .main-form .form-control{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    width: 100%;
+    padding: 9px;
+    color: #75828e;
+    background: #4e5c6c;
+    border-radius: 3px;
+    border: 0px;
+}
+
+/* top footer part end */
+
+/* bottom footer part start */
+
+.bottom-footer{
+    width: 100%;
+    padding: 10px 0px;
+    background: #283645;
+}
+
+.bottom-footer .part-p p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #707e8c;
+    margin: 9px 0px 0px;
+}
+
+.bottom-footer .inner-bottom{
+    width: 100%;
+}
+
+.bottom-footer .inner-bottom .navbar-light .navbar-nav .nav-link{
+    color: #506a85;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 10px;
+    text-transform: capitalize;
+    margin-left: 0px;
+    transition: 1s;
+}
+
+.bottom-footer .inner-bottom .navbar-light .navbar-nav .nav-link:hover, .bottom-footer .inner-bottom .navbar-light .navbar-nav .nav-link:focus{
+    color: #00bc9c;
+}
+
+.bottom-footer .inner-bottom  .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    padding: 0;
+    margin: 0;
+}
+
+.top-scroll{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.top-scroll .btn-info{
+    font-size: 20px;
+    line-height: 20px;
+    color: #949ba2;
+    padding: 4px 9px;
+    background-color: #3c5065;
+    border-radius: 3px;
+    border: 2px solid #3c5065;
+}
+
+/* bottom footer part end */
+
+/* footer section end */
